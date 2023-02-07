@@ -7,7 +7,7 @@ phases:
     commands:
     - echo Logging in to Amazon ECR...
     - aws --version
-    - aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/n0j1m4d6
+    - (Get-ECRLoginCommand).Password | docker login --username AWS --password-stdin 474495984432.dkr.ecr.ap-northeast-1.amazonaws.com
     - IMAGE_NAME=air_quality_ecr
     - IMAGE_URI=474495984432.dkr.ecr.ap-northeast-1.amazonaws.com/air_quality_ecr
     - CONTAINER_NAME=aircicdcontainer
