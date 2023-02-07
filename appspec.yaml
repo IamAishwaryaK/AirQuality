@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-northeast-1:474495984432:task-definition/airqualitycicd:7"
+        TaskDefinition: "arn:aws:ecs:ap-northeast-1:474495984432:task-definition/airquality_monitor:1"
         LoadBalancerInfo:
-          ContainerName: "aircicdcontainer"
+          ContainerName: "airqualitymonitorcont"
           ContainerPort: "80"
         PlatformVersion: "LATEST"

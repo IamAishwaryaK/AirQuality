@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.airqualitymanagement</groupId>
 	<artifactId>aqmicroservices</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 	<packaging>jar</packaging>
 	<name>aqmicroservices</name>
 	<description>Demo project for Spring Boot</description>
@@ -109,7 +109,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>aqms/${project.name}</repository>
+					<repository>aishwaryak10/${project.name}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
