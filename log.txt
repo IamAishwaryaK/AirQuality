@@ -1,0 +1,132 @@
+2023-02-06 23:19:04.316  INFO 12632 --- [http-nio-8010-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 23:19:04.318  INFO 12632 --- [http-nio-8010-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 23:19:04.319  INFO 12632 --- [http-nio-8010-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-06 23:20:34.085  INFO 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Starting AqmicroservicesApplication using Java 1.8.0_202 on Aishwarya-PC with PID 1816 (C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices\target\classes started by Aishwarya in C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices)
+2023-02-06 23:20:34.088  INFO 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 23:20:34.271  INFO 1816 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Program Files\eclipse\plugins\org.junit.jupiter.params_5.0.0.v20170910-2246.jar referenced one or more files that do not exist: file:/C:/Program%20Files/eclipse/plugins/univocity-parsers-2.5.4.jar
+2023-02-06 23:20:34.272  INFO 1816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-06 23:20:34.273  INFO 1816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-06 23:20:36.128  INFO 1816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 23:20:36.269  INFO 1816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interfaces.
+2023-02-06 23:20:38.969  INFO 1816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8010 (http)
+2023-02-06 23:20:38.998  INFO 1816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 23:20:38.999  INFO 1816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-02-06 23:20:39.206  INFO 1816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 23:20:39.206  INFO 1816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4932 ms
+2023-02-06 23:20:39.300  INFO 1816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-06 23:20:40.099  INFO 1816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-06 23:20:40.137  INFO 1816 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b7df8638-88d6-4936-ab81-d88550de473e'
+2023-02-06 23:20:40.932  INFO 1816 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 23:20:41.081  INFO 1816 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-06 23:20:41.533  INFO 1816 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-06 23:20:41.833  INFO 1816 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-06 23:20:43.347  INFO 1816 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 23:20:43.366  INFO 1816 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 23:20:44.113  WARN 1816 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-06 23:20:45.109  INFO 1816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 23:20:45.187  INFO 1816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8010 (http) with context path ''
+2023-02-06 23:20:45.211  INFO 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Started AqmicroservicesApplication in 12.376 seconds (JVM running for 13.486)
+2023-02-06 23:21:08.075  INFO 1816 --- [http-nio-8010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 23:21:08.076  INFO 1816 --- [http-nio-8010-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 23:21:08.081  INFO 1816 --- [http-nio-8010-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-02-06 23:21:42.716  INFO 1816 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 23:21:43.121  INFO 1816 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 23:21:43.127  INFO 1816 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 23:21:43.150  INFO 1816 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 23:21:43.152  INFO 1816 --- [Thread-6] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-02-06 23:21:43.375  WARN 1816 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-02-06 23:21:43.376  INFO 1816 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-06 23:21:43.382  INFO 1816 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-06 23:21:43.977  INFO 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Starting AqmicroservicesApplication using Java 1.8.0_202 on Aishwarya-PC with PID 1816 (C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices\target\classes started by Aishwarya in C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices)
+2023-02-06 23:21:43.991  INFO 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 23:21:44.615  INFO 1816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 23:21:44.638  INFO 1816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2023-02-06 23:21:44.980  INFO 1816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8010 (http)
+2023-02-06 23:21:44.982  INFO 1816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 23:21:44.983  INFO 1816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-02-06 23:21:45.088  INFO 1816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 23:21:45.090  INFO 1816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1070 ms
+2023-02-06 23:21:45.171  INFO 1816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-02-06 23:21:45.177  INFO 1816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-02-06 23:21:45.178  INFO 1816 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b7df8638-88d6-4936-ab81-d88550de473e'
+2023-02-06 23:21:45.245  INFO 1816 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 23:21:45.258  INFO 1816 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-06 23:21:45.463  INFO 1816 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 23:21:45.463  INFO 1816 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 23:21:45.664  WARN 1816 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-06 23:21:45.894  INFO 1816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 23:21:45.918  INFO 1816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8010 (http) with context path ''
+2023-02-06 23:21:45.928  INFO 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Started AqmicroservicesApplication in 2.281 seconds (JVM running for 74.203)
+2023-02-06 23:21:45.932  INFO 1816 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 23:21:53.759  INFO 1816 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 23:21:54.011  INFO 1816 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 23:21:54.028  INFO 1816 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 23:21:54.029  INFO 1816 --- [Thread-8] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-02-06 23:21:54.245  WARN 1816 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-02-06 23:21:54.247  INFO 1816 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-02-06 23:21:54.254  INFO 1816 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-02-06 23:21:54.547  INFO 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Starting AqmicroservicesApplication using Java 1.8.0_202 on Aishwarya-PC with PID 1816 (C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices\target\classes started by Aishwarya in C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices)
+2023-02-06 23:21:54.548 DEBUG 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-02-06 23:21:54.549  INFO 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 23:21:55.597  INFO 1816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 23:21:55.641  INFO 1816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-02-06 23:21:55.969  INFO 1816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8010 (http)
+2023-02-06 23:21:55.970  INFO 1816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 23:21:55.971  INFO 1816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-02-06 23:21:56.015  INFO 1816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 23:21:56.017  INFO 1816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1462 ms
+2023-02-06 23:21:56.042  INFO 1816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-02-06 23:21:56.046  INFO 1816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-02-06 23:21:56.048  INFO 1816 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b7df8638-88d6-4936-ab81-d88550de473e'
+2023-02-06 23:21:56.213  INFO 1816 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 23:21:56.228  INFO 1816 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-06 23:21:56.294  INFO 1816 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 23:21:56.295  INFO 1816 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 23:21:56.493  WARN 1816 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-06 23:21:56.725  INFO 1816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 23:21:56.748  INFO 1816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8010 (http) with context path ''
+2023-02-06 23:21:56.757  INFO 1816 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Started AqmicroservicesApplication in 2.293 seconds (JVM running for 85.032)
+2023-02-06 23:21:56.760  INFO 1816 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 23:22:12.232  INFO 7156 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Starting AqmicroservicesApplication using Java 1.8.0_202 on Aishwarya-PC with PID 7156 (C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices\target\classes started by Aishwarya in C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices)
+2023-02-06 23:22:12.234 DEBUG 7156 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-02-06 23:22:12.236  INFO 7156 --- [restartedMain] c.a.a.AqmicroservicesApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 23:22:12.360  INFO 7156 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Program Files\eclipse\plugins\org.junit.jupiter.params_5.0.0.v20170910-2246.jar referenced one or more files that do not exist: file:/C:/Program%20Files/eclipse/plugins/univocity-parsers-2.5.4.jar
+2023-02-06 23:22:12.361  INFO 7156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-06 23:22:12.362  INFO 7156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-06 23:22:20.885  INFO 12820 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Starting AqmicroservicesApplication using Java 1.8.0_202 on Aishwarya-PC with PID 12820 (C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices\target\classes started by Aishwarya in C:\Users\Aishwarya\Desktop\AirQuality\aqmicroservices)
+2023-02-06 23:22:20.888 DEBUG 12820 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-02-06 23:22:20.889  INFO 12820 --- [restartedMain] c.a.a.AqmicroservicesApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 23:22:21.050  INFO 12820 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Program Files\eclipse\plugins\org.junit.jupiter.params_5.0.0.v20170910-2246.jar referenced one or more files that do not exist: file:/C:/Program%20Files/eclipse/plugins/univocity-parsers-2.5.4.jar
+2023-02-06 23:22:21.051  INFO 12820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-06 23:22:21.052  INFO 12820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-06 23:22:22.586  INFO 12820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-06 23:22:22.713  INFO 12820 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+2023-02-06 23:22:25.218  INFO 12820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8010 (http)
+2023-02-06 23:22:25.238  INFO 12820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 23:22:25.239  INFO 12820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-02-06 23:22:25.481  INFO 12820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 23:22:25.482  INFO 12820 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4428 ms
+2023-02-06 23:22:25.577  INFO 12820 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-06 23:22:26.311  INFO 12820 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-06 23:22:26.339  INFO 12820 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b7df8638-88d6-4936-ab81-d88550de473e'
+2023-02-06 23:22:26.931  INFO 12820 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-06 23:22:27.385  INFO 12820 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-02-06 23:22:27.830  INFO 12820 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-06 23:22:28.088  INFO 12820 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-02-06 23:22:29.597  INFO 12820 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-06 23:22:29.623  INFO 12820 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 23:22:30.502  WARN 12820 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-06 23:22:31.602  INFO 12820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 23:22:31.695  INFO 12820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8010 (http) with context path ''
+2023-02-06 23:22:31.721  INFO 12820 --- [restartedMain] c.a.a.AqmicroservicesApplication         : Started AqmicroservicesApplication in 11.741 seconds (JVM running for 12.941)
+2023-02-06 23:22:43.884  INFO 12820 --- [http-nio-8010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 23:22:43.885  INFO 12820 --- [http-nio-8010-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 23:22:43.888  INFO 12820 --- [http-nio-8010-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-02-06 23:24:06.637  INFO 12820 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-06 23:24:06.870  INFO 12820 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-06 23:24:06.875  INFO 12820 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-06 23:24:06.891  INFO 12820 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-06 23:24:06.892  INFO 12820 --- [Thread-6] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-02-06 23:24:07.106  WARN 12820 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-02-06 23:24:07.107  INFO 12820 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-06 23:24:07.114  INFO 12820 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
