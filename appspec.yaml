@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:033602425596:task-definition/pm-authorizationservice:2"
+        TaskDefinition: "arn:aws:ecs:ap-northeast-1:474495984432:task-definition/airqualitycicd:1"
         LoadBalancerInfo:
-          ContainerName: "authorizationservice"
+          ContainerName: "aircicdcontainer"
           ContainerPort: "80"
         PlatformVersion: "LATEST"
