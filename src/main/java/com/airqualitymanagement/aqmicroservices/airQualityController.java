@@ -30,6 +30,7 @@ public class airQualityController {
 	
 	 
 	//Get air quality details of each floor
+	@CrossOrigin(origins = "http://localhost:4200")
 	@GetMapping("/floor/{flnum}")
 	public List<airQuality> findfloor(@PathVariable int flnum)
 	{
